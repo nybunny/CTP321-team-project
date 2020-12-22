@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5431529089178936865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5102924724134861640}
+  - component: {fileID: 2829840384117701321}
+  m_Layer: 0
+  m_Name: ItemDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5102924724134861640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431529089178936865}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 348.41705, y: 131.85799, z: 0}
+  m_LocalScale: {x: 1.5151515, y: 1.5151515, z: 1.5151515}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2829840384117701321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431529089178936865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f580cac4c40ba2b4db5fa87e52a1eff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDB:
+  - itemType: 0
+    itemName: Wine
+    itemImage: {fileID: 21300000, guid: 6f2d84b7c98df1f478d9379c8c1c013d, type: 3}
+    efts: []
+    index: 0
+    itemDescribe: 'A bottle of wine.
+
+      Louis''s self-birthday gift.'
+  - itemType: 1
+    itemName: Candy Wrapper
+    itemImage: {fileID: 21300000, guid: f0d0a5aa8714aa94fa2a0ab4f17e7c09, type: 3}
+    efts: []
+    index: 1
+    itemDescribe: ' Someone''s trick. There is no candy inside the wrapper'
+  - itemType: 1
+    itemName: Compass
+    itemImage: {fileID: 21300000, guid: d192ba8c31ff0674e9c87204f3fdf932, type: 3}
+    efts:
+    - {fileID: 11400000, guid: 07fd58c973002564098b3673187e425a, type: 2}
+    index: 2
+    itemDescribe: ' Grandfather''s compass. It''s pointing somewhere not North.'
+  - itemType: 0
+    itemName: Spam
+    itemImage: {fileID: 21300000, guid: b1a52829f8c976740b2e69408ea7d56d, type: 3}
+    efts:
+    - {fileID: 11400000, guid: f0934a98380197444a45a023187d231c, type: 2}
+    index: 3
+    itemDescribe: ' Unopen spam. It is long past it''s sell by date, but it seems
+      pretty well. Why don''t you try it?'
+  - itemType: 1
+    itemName: Strawberry Jam
+    itemImage: {fileID: 21300000, guid: 7cae469f7abe55e4a89b947ddc6104fb, type: 3}
+    efts:
+    - {fileID: 11400000, guid: 175421b84df76624e9f8078988c3aaef, type: 2}
+    index: 4
+    itemDescribe: ' Strawberry Jam left over from... 10 years ago? Do you really
+      want to eat it?'
+  - itemType: 1
+    itemName: Can of beans
+    itemImage: {fileID: 21300000, guid: 09e25184eaabd45478de248ed30df3be, type: 3}
+    efts:
+    - {fileID: 11400000, guid: f61b768059f844a4a8aa263eeeaf4803, type: 2}
+    index: 5
+    itemDescribe: ' Unopen backed beans. The can looks puffed up. Is it safe?'
+  theSlotToolTip: {fileID: 0}

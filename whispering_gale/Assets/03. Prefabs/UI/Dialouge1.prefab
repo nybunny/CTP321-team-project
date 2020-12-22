@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4821292241927933883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4821292241927933880}
+  - component: {fileID: 4821292241927933881}
+  m_Layer: 5
+  m_Name: Dialouge1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4821292241927933880
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821292241927933883}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.77416664, y: 0.77416664, z: 0.77416664}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 464.5, y: 261.25}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4821292241927933881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821292241927933883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e8e14ffb79ef474b89ca959d3675433, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    speakers: []
+    sentences:
+    - ' When do children become adults? I''m sure I''m not the only person who has
+      asked herself this question.'
+    - ' Nothing has changed from yesterday, but starting from today I''m 20. So I''m
+      free to go wherever I want, buy alcohol, blahblahblah.'
+    - ' Or so the laws say - I mean, it doesn''t say that I have the guts to do anything
+      that... brave... will the word reckless be more suitable?'
+    - " It\u2019s been a very boring birthday so far; the dinner was about my grades
+      and future."
+    - " I think the old topic of politics would be much better-\nmy attention drifts
+      away without any effort, whereas if I\u2019m the topic, my ears perk up just
+      to feed my brain displeasure."
+    - " Don\u2019t get me wrong - I love my parents and am thankful for their attention.
+      It\u2019s the fact that I can\u2019t give any retorts that make me unreasonably
+      angry.\r"
+    - " Grandpa would say something like, \"Where has the \u201Ctwenties\u2019 passion
+      gone in this century?\""
+    - ' But he''s gone, and everyone  I know is following the same, seemingly ages-old
+      but actually recently-paved-and-will-shift-according-to-paradigm path.'
+    - " I don\u2019t know if this is right, but the word \"right\" itself is ambiguous
+      to the point of meaninglessness."
+    - " So I\u2019m just lost in thought. Sorry if I bored you - and me."
+    - ' ...'
+    - " Hmm\u2026 but it is my birthday\u2026 so I\u2019m going to do something naughty."
+    - 
+  images:
+    name: 
+    images: []
+  hasImages: 0
+  next:
+    nextActionCode: 2
+    nextObject: {fileID: 0}
+    nextSceneName: 
+    nextQuestNum: 1
