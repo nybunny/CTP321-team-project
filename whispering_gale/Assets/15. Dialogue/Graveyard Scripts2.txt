@@ -1,0 +1,111 @@
+--> After Dialogue2 is initiated, PlayerPrefs.GetInt(PlayerPrefs.GetInt(player_name).ToString() + "_quest11") = 1 // questSave.SaveQuestStarted(11); in ColliderDialogueTrigger.cs (attached to megan)
+Then, Dialogue3 is made available (Mousey_Controller.cs)
+
+Dialogue3_MisterDragon
+0 Louis) Are those two animals... Mythicals?
+1 Louis) I remember seeing them from afar, but since they don't exist in the Upper City, wow...
+2 Louis) Excuse me, may I ask a question?
+3 Rabbit) Can't you see I'm dancin'?
+4 Louis) U-Um...
+5 Mouse) Hey, hey, Rabbit. Calm down. Anyone can ask a question. What would you like answered?
+6 Louis) I was wondering if you knew anything about Tom's wish?
+7 Mouse) Hmm... To-mmy... Wasn't his wish to meet the dead?
+8 Rabbit) No, Mr.Mouse. The Keeper didn't dream for the dead; he dreamt for the living.
+9 Mouse) Hey, why'd you identify meeting the dead with death?
+10 Rabbit) Well, what other way is there?
+11 Mouse) Mister Dragon used to be around...
+12 Rabbit) But Mister Dragon's DEAD here, you Mouse. He went back to the p--
+13 Louis) I'm sorry to interrupt your banter, Ms--
+14 Rabbit) Call me Rabbit. I'll call you Human in return.
+15 Louis) ...Is Rabbit your name?
+16 Rabbit) It's what humans call untamed rabbits. If that's what you mean by "name," then yes.
+17 Mouse) Excuse her antisocial tendencies. She abhors individuality in interracial conversations.
+18 Mouse) Call me Mous-ey. Cuz I like a little specialt-y.
+19 Mousey) And let me call you Louis-ey. Or will plain Louis fit your taste?
+20 Louis) (How did he know my name? I thought brain-reading magic was too complex to perform during conversation.)
+21 Rabbit) No, this male mouse is getting his hopes up in life.
+22 Rabbit) What am I to claim superiority over the white fluffy kids running around here?
+23 Rabbit) What are you, Mr.Mouse, to identify yourself with what you have been given by luck of ti--
+24 Louis) (This conversation is getting out of hand...)
+25 Louis) Ms.Rabbit, who was Mister Dragon?
+26 Rabbit) It, not who.
+27 Rabbit) It was one of us, though couple steps closer to magic's - and our - essence than me or Mr.Mouse.
+28 Rabbit) It could speak to the dead, and was almost worshipped by the people.
+29 Louis) ...really?
+30 Rabbit) ...You're speaking to us.
+31 Louis) ???
+32 Rabbit) (sigh) Go up the hill and reach the top - that tower. You'll be able to see what Mister Dragon looked like.
+33 Mousey) Yes, do so, Louisey.
+34 Mousey) It will do you good. More good than watching our dance research and nonsense rap battles, at least.
+35 Mousey) Go, go. And send Mister Dragon's remains our reminiscences.
+36 Louis) Okay... Thank you.
+
+--> next action: Mousey's dance changes
+
+Dialogue4_JohnsTale (triggred by Dialogue4_Trigger.cs, attached to Dragon)
+0 John) Ya here to see the dragon, or the tower?
+1 Louis) I... heard that people used to believe this dragon could talk to the dead, so I came to see why.
+2 John) Why, eh? Well that's a tough question.
+3 Louis) Do you know anything about it?
+4 John) Know a bit.
+5 John) When I was a young one, it was a sort of common knowledge that Mister Dragon could reach the dead, and send them our messages. 
+6 John) You see, this statue moved when it saw grief - or at least my mom and dad said so.
+7 John) So people hiked all the way up here to look over the graveyard and send their words to the people down there.
+8 John) But as time passed and magic was researched people stopped believing in stupid myths. 
+9 John) Nobody comes here anymore unless they want exercise, or they're old like me and miss all the laughing and crying.
+10 John) Oh, and I remember the dragon being a lot bigger- as big as that tower - but then I was small...
+11 Louis) (If the dragon was as big as the tower, it should have been a lot thicker...)
+12 Louis) Then how was that tower built?
+13 John) Oh, that tower's not that old. It was built like 10 years ago - by a couple older than me.
+14 John) Weird folks; well-educated but believing in the dragon. Maybe they liked the idea of people believing in it?
+15 John) Well anyway, there was a couple from the outside that tried to make the dragon as big as I thought it used to be.
+16 John) They failed - I dunno why, when they looked like a pair of strong magicians. Maybe the dragon didn't like them?
+17 John) So they built the tower instead, and magicked it to send a breeze whenever people cried in the graveyard.
+18 John) Tom - the graveyard keeper - liked it. He said winds whisper comfort. But then all he ever said was poetry.
+19 Louis) Did the tower's spell bring people back here?
+20 John) Somewhat. But it brung back the people who'd forgotten about the dragon, not the ones who'd never even heard of Mister Dragon. So it wasn't much.
+21 John) Besides, the spell's gone. It died out with the couple.
+22 John) Tom tried to re-cast it, but he's never studied magic harder than cleaning the kitchen, and now he's too sick to walk up here by himself.
+23 John) And that's it. 
+24 John) If Mister Dragon really is getting smaller, will he disappear when Tom and I and our friends are all dead?
+
+--> next action: John walks away
+--> next action: Dialogue5
+(& after quest11 is complete, change John's motion from john@Sad Idle -> john@Idle)
+
+Dialogue5_CastSpell
+0 Louis) (Making winds in response to crying - or sadness... it's advanced magic, but it's also something Grandma taught me.)
+1 Louis) (I think I can cast this spell...)
+2 Louis) .........
+3 Louis) Done!
+
+--> next action: tower lights up momentarily
+--> next action: Orb appears
+
+Dialogue6 is triggered when Louis interacts with the Orb, which turns into a piece of paper
+
+Dialogue6_LetterFromGrandpa
+0 Louis) Inside the orb was an old paper with a memo attached to it.
+The memo turned out to be a letter from Grandpa.
+1 Louis) The memo read:
+2 Grandpa) This old paper is a bucket list that I wrote when I was twenty-one, and stuck inside a book 
+3 Grandpa) I wanted to read. Finding and re-reading it last week while picking books to give away made me feel despondent.
+4 Grandpa) It was a list of things I wanted to do after retirement - the portrait of a young man dreaming of old age, of the end of life!
+5 Grandpa) I decided to put this in my time capsule because I do not want my dear Louis to follow this path. 
+6 Grandpa) Putting off the things that I really wanted to do made my time more or less a burden.
+7 Grandpa) Besides, you should know I haven't accomplished half of the things written here. 
+8 Grandpa) (For starters, I was about to give that book away without reading it!)
+9 Grandpa) If you're reading this letter then you must be wondering what to do with your life, at least a bit.
+10 Grandpa) This is an old know-it-all's wish; please dream of middle-age before retirement, and of youth before middle-age. 
+11 Grandpa) Look at the trail at least for a moment before letting your eyes reach the peak.
+12 Grandpa) I did not know how to value time as much as your Grandma did, and I lost the chance to make more memories. This is proof of my regret.
+13 Grandpa) Well, then on to the next time capsule, my lady!
+Love, Grandpa
+14 Louis) I couldn't help but give the letter a teary smile, mixed with a drop of resentment.
+15 Louis) Like always, he had left me with questions, not answers.
+16 Louis) I sighed, and returned to the house for the day.
+
+--> Go to the credits!
+
+
++ Item 추가할 때 반드시 Prefab의 itemdatabase에 추가하고, item index를 database에서의 순서랑 똑같이 지정해둬야지 아이템이 정상적으로 다음 씬에서 로드됩니다 주의해주세요

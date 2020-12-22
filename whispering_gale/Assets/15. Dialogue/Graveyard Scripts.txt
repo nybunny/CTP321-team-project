@@ -1,0 +1,25 @@
+Graveyard Scripts
+
+Dialogue1_LouisMono
+Speakers -> all Louis
+0) Grandma and Grandpa's grave... I haven't been here since their funeral.
+1) I'll pay my tribute...
+2) ...
+3) So Gramps, what did you want me to do here?
+4) (Takes out compass)
+5) It's pointing to... that girl? And she's emitting light - probably from the compass.
+
+Dialogue2_MeetMegan
+0 Louis) Hello...
+1 Megan) Oh, hi. Are you visiting a relative? I'm Megan, the part-time keeper of this graveyard, so ask me if you need anything.
+2 Louis) Um, I was wondering if my grandfather - he's over there - left anything in the hands of the previous gatekeeper, Tom.
+3 Megan) Are you Louis, his granddaughter?
+4 Louis) Yes - do I need to show my ID card?
+5 Megan) Nah. I'll just relay what Tom always talked about. If you're not his kid then I don't think you'll get it anyway.
+6 Megan) Your grandfather left behind a request - and a ton of money - to tell you about the three time capsules you, him, and your grandmother buried when you were ten.
+7 Megan) The first one is... "inside Tom's wish."
+8 Megan) And Tom's wish was for the wind to whisper words of comfort to the mourning.
+9 Megan) What do you make of that? Personally, I think Tom was trying to get his hands on more money from your grandfather...
+10 Louis) (The compass isn't pointing towards her, and the light has vanished...)
+11 Louis) I'll... try to investigate. Grandpa always liked riddles.
+12 Megan) Well, good luck then.
